@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table{
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: cursive;
+    box-shadow: 0 0 15px #0002;
+    border-bottom: 3px solid #01987A;
+    border-radius: 10px 10px 0 0 ;
+}
+.table th,
+.table td{
+    border-bottom: 1px solid #ddd;
+    padding: 10px  20px;
+}
+.table thead{
+    background: #01987A;
+    color: #fff;
+    text-align: left;
+}
+.table th:first-child{
+    border-radius: 10px 0 0 0;
+}
+.table th:last-child{
+    border-radius:  0 10px 0 0;
+}
+.table tbody tr:nth-child(odd){
+    background: #f1f1f1;
+}
+.table tbody tr:hover{
+    color: #01987A;
+}
